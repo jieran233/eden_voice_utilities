@@ -1,6 +1,6 @@
 # eden_voice_utilities
 
-面向机器学习的eden*语音与文本实用工具
+面向tacotron2的eden*语音与文本实用工具
 
 ## Usage
 
