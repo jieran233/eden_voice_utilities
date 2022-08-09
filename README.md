@@ -48,7 +48,7 @@ python3 main.py filelists
 # 等效于 main.py filelists --sio
 ```
 
-可选参数`speaker`的默认值为[^sio]（请注意不要忘记`--`）
+可选参数`speaker`的默认值为`sio`[^sio]（请注意不要忘记`--`）
 
 程序会默认将收集到的的所有的 文本与对应语音文件 随机排序，并从中取出`10%`作为验证集，剩下的`90%`作为训练集
 
@@ -66,7 +66,7 @@ cd ./
 python3 main.py process_voice
 ```
 
-程序默认会将收集到的所有文件调用[^ffmpeg]可执行文件将其重采样为`22050Hz`并转换为`wav`格式
+程序默认会将收集到的所有文件调用`ffmpeg`[^ffmpeg]可执行文件将其重采样为`22050Hz`并转换为`wav`格式
 
 [^ffmpeg]:毋庸置疑，你的设备上需要安装ffmpeg并将其添加到PATH
 
