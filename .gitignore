@@ -152,5 +152,8 @@ cython_debug/
 #.idea/
 
 
-raw_data/scr
-raw_data/voice
+raw_data/scr/*
+raw_data/voice/*
+output/filelists/*
+output/wav/*
+temp/*
